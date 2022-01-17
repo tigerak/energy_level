@@ -20,3 +20,14 @@
 
 그래프 신경망을 이용하여 성능을 높이고자 합니다.
 
+## Test Result
+
+3차원 구조 정보 사용
+
+- **Random Forest** - [MSE] public점수 : 0.273 // private점수 : 0.249
+- **XGBoost** - [MSE] public점수 : 0.278// private점수 : 0.249
+
+SMILES 화학식만 이용
+
+- **GCN (Graph Convolutional Networks) -** [MSE] public점수 : 0.449 / private점수 : 0.380
+- **RGCN (Relational GCN)** -  [MSE] public점수 : 0.123 / private점수 : 0.130
